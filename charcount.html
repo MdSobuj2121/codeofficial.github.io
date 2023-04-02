@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CharCount</title>
+    <link rel="stylesheet" href="cCount.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Real-Time Character Counter</h2>
+        <textarea id="tarea" class="tarea" placeholder="Enter your text here...." maxlength="100"></textarea>
+        <div class="counter-container">
+            <p>Total characters:
+                 <span class="total-counter" id="tc"></span>
+            </p>
+            <p>Remaining:
+                <span class="remaining-counter" id="rc"></span>
+           </p>
+        </div>
+    </div>
+    <script src="backcCount.js"></script>
+</body>
+</html>
